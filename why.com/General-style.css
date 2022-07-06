@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+header {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    align-items: center;
+}
+
+/*logo style*/
+.logo {
+    width: 12%;
+}
+
+/*nav edit*/
+/*nav edit*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+section {
+    padding: 50px 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* page 1 */
+/* cards style */
+.cards {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.card {
+    width: 40em;
+    padding: 5px;
+    margin: 10px;
+    text-align: right;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width: 100%;
+}
+
+.info {
+    float: right;
+    display: flex;
+    justify-content: right;
+}
+
+.title {
+    color: #FF0000;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.ques {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px;
+
+}
+
+.ques h2 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #ff0000;
+}
+
+.ques span {
+    color: #234567;
+}
+
+.ques p {
+    font-size: 1.2em;
+}
+
+/* cards style end */
+
+/* page 1 end */
